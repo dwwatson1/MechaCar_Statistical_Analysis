@@ -13,3 +13,15 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data = mecha_car))
 
 #Deliverable 1 Complete
+
+#Deliverable 2
+
+suspension_coil <- read.csv('C:/Users/David Watson/Documents/GW Course/15 Module - R/R_Analysis/Suspension_Coil.csv',check.names = F,stringsAsFactors = F)
+
+#get total summary
+total_summary <- suspension_coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups = 'keep')
+
+#get lot summary
+lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups = 'keep')
+
+#Deliverable 2 Complete
