@@ -56,7 +56,7 @@ Lot 1 results show that the ```sample mean is 1,500``` and the p-value is a perf
 
 <img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_three.PNG" width="600" >
 
-**Lot 2** results show ```sample mean is 1,500.02``` and the ```p-value is 0.61```. Because the p-value is much higher than the assumed statistical significance of 0.05, we fail to reject the null hypothesis. There is no statistical difference from the population mean of 1,500 pounds per square inch.
+**Lot 2** results show ```sample mean is 1,500.2``` and the ```p-value is 0.61```. Because the p-value is much higher than the assumed statistical significance of 0.05, we fail to reject the null hypothesis. There is no statistical difference from the population mean of 1,500 pounds per square inch.
 
 ### Lot 3 T-Test
 
@@ -66,10 +66,9 @@ Lot 1 results show that the ```sample mean is 1,500``` and the p-value is a perf
 
 ## Study Design: MechaCar vs Competition
 
-* Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+Many consumers, especially families and those who have previously been in accidents, value safety when it comes to picking their car. To test MechaCar's safety rating against its competition, we need to create a null and alternative hypothesis.
 
-## Conclusion
+**H0 (Null Hypothesis):** MechaCar's vehicle safety ratings are no different from its competitors 
+**Ha (Alternative Hypothesis):** MechaCar's vehicle safety ratings are different from its competitors 
+
+To test these, we'd need to collect safety ratings on MechaCar's models as well as its competitors from the Insurance Institute for Highway Safety, which determines saftey ratings. As the non-profit explains, their scores are determine by four factors: measurements from dummies, survival space, airbags, and seat belt effectiveness. Using that data, we could t-test the population of vehicles and each individual carmaker's. This will help us determine if MechaCar's vehicles' satefy rating scores are statistically different from its competitors as a whole and then statistically different from each competitor.
