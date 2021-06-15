@@ -50,11 +50,11 @@ The next three t-tests were used to determine if the PSI across each individual 
 * Lot 2 results show ```sample mean is 1,500.02``` and the ```p-value is 0.61```. Because the p-value is much higher than the assumed statistical significance of 0.05, we fail to reject the null hypothesis. There is no statistical difference from the population mean of 1,500 pounds per square inch.
 * Lot 3 results show ```sample mean is 1,496.14``` and the ```p-value is 0.04```. Because the p-value is lower than the assumed statistical significance of 0.05, we reject the null hypothesis and accept the alternative hypothesis that the true mean is not equal to 1,500. This means that this sample shows that there is statistical difference from the population mean of 1,500 pounds per square inch.
 
-<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_two" width="600" >
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_two.PNG" width="600" >
 
-<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_three" width="600" >
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_three.PNG" width="600" >
 
-<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_four" width="600" >
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_four.PNG" width="600" >
 
 ## Study Design: MechaCar vs Competition
 
