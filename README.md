@@ -32,6 +32,10 @@ When we break the manufacturing data by the three lots, shown below, we see that
 
 <img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.PNG" width="600" >
 
+The box plot below demonstrates how much larger the variance of Lot 3 is compared to Lot 1 and 2.
+
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/box_plot.PNG" width="600" >
+
 ## T-Tests on Suspension Coils
 
 * summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
