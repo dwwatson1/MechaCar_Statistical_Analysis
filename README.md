@@ -15,7 +15,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 The linear regression model above estimates that: 
 
 _**mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD - 104.0 **
-_
+
 * Using the formula above, vehicle length, and ground clearance are statistically likely to provide non-random amounts of variance to the model or are most likely to affect the miiles per gallon performance of the MechaCar's AutosRUs prototype.  
 * Given the model's p-value of 5.35e-11, which is lower than the 0.05 assumed statistical significance, there is strong evidence **against the null hypothesis** (slope = 0). Therefore, we can accept that alternative hypothesis that the **slope is not 0**.
 
