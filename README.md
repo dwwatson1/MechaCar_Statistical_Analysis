@@ -38,7 +38,19 @@ The box plot below demonstrates how much larger the variance of Lot 3 is compare
 
 * summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-Next, we needed to conduct a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch and then t-tests for each manufacturing lots
+Next, we needed to conduct a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch and then t-tests for each manufacturing lots.
+
+The first t-test was used to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The result of the t-test showed that there was a ```sample mean of 1,498.78``` and a ```p-value of 0.06```. Because our p-value is higher than the assumed statistical significance of 0.05, we fail to reject the null hypothesis. This means that the PSI across all manufacturing lots is **statistically similar** to the population mean of 1,500 pounds per square inch.
+
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_one.PNG" width="600" >
+
+The next three t-tests were used to determine if the PSI across each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_two" width="600" >
+
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_three" width="600" >
+
+<img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_four" width="600" >
 
 ## Study Design: MechaCar vs Competition
 
