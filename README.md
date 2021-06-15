@@ -69,6 +69,7 @@ Lot 1 results show that the ```sample mean is 1,500``` and the p-value is a perf
 Many consumers, especially families and those who have previously been in accidents, value safety when it comes to picking their car. To test MechaCar's safety rating against its competition, we need to create a null and alternative hypothesis.
 
 **H0 (Null Hypothesis):** MechaCar's vehicle safety ratings are no different from its competitors 
+
 **Ha (Alternative Hypothesis):** MechaCar's vehicle safety ratings are different from its competitors 
 
 To test these, we'd need to collect safety ratings on MechaCar's models as well as its competitors from the Insurance Institute for Highway Safety, which determines saftey ratings. As the non-profit explains, their scores are determine by four factors: measurements from dummies, survival space, airbags, and seat belt effectiveness. Using that data, we could t-test the population of vehicles and each individual carmaker's. This will help us determine if MechaCar's vehicles' satefy rating scores are statistically different from its competitors as a whole and then statistically different from each competitor.
