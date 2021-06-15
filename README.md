@@ -50,7 +50,7 @@ The next three t-tests were used to determine if the PSI across each manufacturi
 
 <img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/t_test_two.PNG" width="600" >
 
-Lot 1 results show that the ```sample mean is 1,500``` and the p-value is a perfect 1. There is no statistical difference from the population mean of 1,500 pounds per square inch. In this case, we fail to reject the null hypothesis.
+**Lot 1** results show that the ```sample mean is 1,500``` and the p-value is a perfect 1. There is no statistical difference from the population mean of 1,500 pounds per square inch. In this case, we fail to reject the null hypothesis.
 
 ### Lot 2 T-Test
 
