@@ -8,7 +8,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 * **Data Sources:** [MechaCar_mpg.csv](https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/MechaCar_mpg), [Suspension_Coil.csv](https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/Suspension_Coil.csv)
 * **Software:** R 4.1.0 for Windows, RStudio 1.2.5019 - Windows 10/8/7 (64 bit)
  
-## Linear Regression to Predict MPG
+## Deliverable 1 - Linear Regression to Predict MPG
 
 ![Deliverable_One_LM.PNG](https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/Deliverable_One_LM.PNG)
 
@@ -20,7 +20,7 @@ The linear regression model above estimates that:
 * Given the model's ```p-value of 5.35e-11```, which is lower than the 0.05 assumed statistical significance, there is strong evidence **against the null hypothesis** (slope = 0). Therefore, we can accept the alternative hypothesis that the **slope is not 0**.
 * The model's ```r-squared value of .7149``` means that about 71% of the variance in mpg predictions can be explained by this model, while 29% cannot. In other words, the variables of vehicle length, spoiler angle, ground clearance, and AWD have a strong positive association with mpg. Therefore, this model effectively predicts mpg of MechaCar prototypes.
 
-## Summary Statistics on Suspension Coils
+## Deliverable 2 - Summary Statistics on Suspension Coils
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the PSI data for all three manufacturing lots, provided in the PSI summary chart below, we see that the ```variance of the suspension coils is 62.69 pounds per square inch```. Therefore, it does not exceed the design specification of 100 pounds per square inch.
 
@@ -34,9 +34,7 @@ The box plot below demonstrates how much larger the variance of Lot 3 is compare
 
 <img src="https://github.com/dwwatson1/MechaCar_Statistical_Analysis/blob/main/images/box_plot.PNG" width="600" >
 
-## T-Tests on Suspension Coils
-
-* summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+## Deliverable 3 - T-Tests on Suspension Coils
 
 Next, we needed to conduct a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch and then t-tests for each manufacturing lot.
 
@@ -64,7 +62,7 @@ The next three t-tests were used to determine if the PSI across each manufacturi
 
 **Lot 3** results show ```sample mean is 1,496.14``` and the ```p-value is 0.04```. Because the p-value is lower than the assumed statistical significance of 0.05, we reject the null hypothesis and accept the alternative hypothesis that the true mean is not equal to 1,500. This means that this sample shows that there is a statistical difference from the population mean of 1,500 pounds per square inch.
 
-## Study Design: MechaCar vs Competition
+## Deliverable 4 - Study Design: MechaCar vs Competition
 
 Many consumers, especially families and those who have previously been in accidents, value safety when it comes to picking their car. To test MechaCar's safety rating against its competition, we need to create a null and alternative hypothesis.
 
