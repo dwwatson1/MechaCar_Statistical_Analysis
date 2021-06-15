@@ -38,6 +38,8 @@ The box plot below demonstrates how much larger the variance of Lot 3 is compare
 
 * summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+Next, we needed to conduct a t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch and then t-tests for each manufacturing lots
+
 ## Study Design: MechaCar vs Competition
 
 * Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
